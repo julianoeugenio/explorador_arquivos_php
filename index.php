@@ -2,7 +2,7 @@
 <html>
     <head>
         <meta charset="UTF-8">
-        <title>AW2Store Cloud Backup</title>
+        <title> Cloud Backup</title>
         <style>
             .div_principal{
                 /*position: absolute;*/

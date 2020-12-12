@@ -11,7 +11,7 @@ if ($cod_usuario == 1) {
     <html>
         <head>
             <meta charset="UTF-8">
-            <title>AW2Store Cloud Backup</title>
+            <title> Cloud Backup</title>
             <style>
                 body {
                     font-family: "Open Sans Condensed", sans-serif;

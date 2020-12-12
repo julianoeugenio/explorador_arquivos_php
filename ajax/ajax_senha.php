@@ -29,7 +29,7 @@ if (!empty($_POST['email']) && !empty($_POST['captcha'])) {
             $reg = mysqli_fetch_assoc($query);
             if (!empty($reg['cod_usuario']) && !empty($reg['senha'])) {
 
-                $msg = '<html><head><title>AW2Store Cloud Backup</title></head><body>';
+                $msg = '<html><head><title> Cloud Backup</title></head><body>';
                 $msg .= 'Olá ' . $reg['nome'] . ", sua senha é: " . $reg['senha'] . "<br>";
                 $msg .= '<p>Clique no link para acessar sua conta</p><a href="http://177.74.188.154:6080">http://177.74.188.154:6080</a>';
                 $msg .= '</body></html>';
@@ -62,7 +62,7 @@ function envia_email($para, $body) {
     $nome_real = 'Sistem';
     $email = email;
     $senha_email = senha_email;
-    $assunto = "AW2Store Cloud Backup - Recuperação de Senha";
+    $assunto = " Cloud Backup - Recuperação de Senha";
 
 
     $mail = new PHPMailer(true); //Cria instancia
